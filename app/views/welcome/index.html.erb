@@ -1,0 +1,12 @@
+<h1>Welcome#index</h1>
+<p>
+    <%= link_to  "Português", '/?locale=pt-BR' %>
+</p>
+<p>
+    <%= link_to  "English", '/?locale=en' %>
+</p>
+
+<p><%= I18n.l(Date.today) %></p>
+<p><%= I18n.t('abc') %></p>
+<%= render  "menu" %>
+<p><%= @teste %></p>
