@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  get 'birthdays/update'
+  get 'birthdays/index'
+  resources :eventos
   resources :mining_types
   get 'welcome/index'
   resources :coins

@@ -16,6 +16,8 @@ Rails.application.config.assets.precompile += %w( coins.js
                                                   teste.js
                                                   welcome.js
                                                   cable.js
+                                                  eventos.js
+                                                  birthdays.js
                                                   )
 
 Rails.application.config.assets.precompile += %w( coins.css
@@ -23,4 +25,6 @@ Rails.application.config.assets.precompile += %w( coins.css
                                                   scaffolds.css
                                                   teste.css
                                                   welcome.css
+                                                  eventos.css
+                                                  birthdays.css
                                                   )
