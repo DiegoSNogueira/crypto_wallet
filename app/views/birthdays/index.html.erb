@@ -1,0 +1,25 @@
+<form action="/birthdays/update">
+    <table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Dia</th>
+            <th>Mes</th>
+            <th>Ano</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% @birthdays.each do |b|%>
+        <tr>
+            <td><input type='text' name='id[]' value = <%= "#{b.id}"%>  /></td>   
+            <td><input type='text' name='dia[]' value = <%= "#{b.dia}" %> /></td>
+            <td><input type='text' name='mes[]' value = <%= "#{b.mes}" %> /></td>
+            <td><input type='text' name='ano[]' value = <%= "#{b.ano}" %> /></td>
+        </tr>
+        <% end %>
+    </tbody>
+    </table>
+    <input type="submit">
+</form>
+
+

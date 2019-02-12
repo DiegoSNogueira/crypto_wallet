@@ -4743,3 +4743,415 @@ Processing by BirthdaysController#update as HTML
 Completed 200 OK in 88ms (Views: 78.4ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/birthdays/index" for 127.0.0.1 at 2019-02-12 00:13:54 -0200
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by BirthdaysController#index as HTML
+  Rendering birthdays/index.html.erb within layouts/application
+  [1m[36mBirthday Load (0.0ms)[0m  [1m[34mSELECT "birthdays".* FROM "birthdays"[0m
+  ↳ app/views/birthdays/index.html.erb:12
+  Rendered birthdays/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 691ms (Views: 666.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/birthdays/update?id%5B%5D=1&dia%5B%5D=22&mes%5B%5D=12&ano%5B%5D=2019&id%5B%5D=2&dia%5B%5D=10&mes%5B%5D=12&ano%5B%5D=2009" for 127.0.0.1 at 2019-02-12 00:14:02 -0200
+Processing by BirthdaysController#update as HTML
+  Parameters: {"id"=>["1", "2"], "dia"=>["22", "10"], "mes"=>["12", "12"], "ano"=>["2019", "2009"]}
+  Rendering birthdays/update.html.erb within layouts/application
+  Rendered birthdays/update.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 196ms (Views: 158.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/birthdays/update?id%5B%5D=1&dia%5B%5D=22&mes%5B%5D=12&ano%5B%5D=2019&id%5B%5D=2&dia%5B%5D=10&mes%5B%5D=12&ano%5B%5D=2009" for 127.0.0.1 at 2019-02-12 00:17:12 -0200
+Processing by BirthdaysController#update as HTML
+  Parameters: {"id"=>["1", "2"], "dia"=>["22", "10"], "mes"=>["12", "12"], "ano"=>["2019", "2009"]}
+  Rendering birthdays/update.html.erb within layouts/application
+  Rendered birthdays/update.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 288ms (Views: 242.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/birthdays/update?id%5B%5D=1&dia%5B%5D=22&mes%5B%5D=12&ano%5B%5D=2019&id%5B%5D=2&dia%5B%5D=10&mes%5B%5D=12&ano%5B%5D=2009" for 127.0.0.1 at 2019-02-12 00:17:53 -0200
+Processing by BirthdaysController#update as HTML
+  Parameters: {"id"=>["1", "2"], "dia"=>["22", "10"], "mes"=>["12", "12"], "ano"=>["2019", "2009"]}
+  Rendering birthdays/update.html.erb within layouts/application
+  Rendered birthdays/update.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 108ms (Views: 92.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/birthdays/update?id%5B%5D=1&dia%5B%5D=22&mes%5B%5D=12&ano%5B%5D=2019&id%5B%5D=2&dia%5B%5D=10&mes%5B%5D=12&ano%5B%5D=2009" for 127.0.0.1 at 2019-02-12 00:18:21 -0200
+Processing by BirthdaysController#update as HTML
+  Parameters: {"id"=>["1", "2"], "dia"=>["22", "10"], "mes"=>["12", "12"], "ano"=>["2019", "2009"]}
+  Rendering birthdays/update.html.erb within layouts/application
+  Rendered birthdays/update.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 92ms (Views: 84.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/birthdays/update?id%5B%5D=1&dia%5B%5D=22&mes%5B%5D=12&ano%5B%5D=2019&id%5B%5D=2&dia%5B%5D=10&mes%5B%5D=12&ano%5B%5D=2009" for 127.0.0.1 at 2019-02-12 00:18:37 -0200
+Processing by BirthdaysController#update as HTML
+  Parameters: {"id"=>["1", "2"], "dia"=>["22", "10"], "mes"=>["12", "12"], "ano"=>["2019", "2009"]}
+  Rendering birthdays/update.html.erb within layouts/application
+  Rendered birthdays/update.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 108ms (Views: 93.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/birthdays/update?id%5B%5D=1&dia%5B%5D=22&mes%5B%5D=12&ano%5B%5D=2019&id%5B%5D=2&dia%5B%5D=10&mes%5B%5D=12&ano%5B%5D=2009" for 127.0.0.1 at 2019-02-12 00:18:57 -0200
+Processing by BirthdaysController#update as HTML
+  Parameters: {"id"=>["1", "2"], "dia"=>["22", "10"], "mes"=>["12", "12"], "ano"=>["2019", "2009"]}
+  Rendering birthdays/update.html.erb within layouts/application
+  Rendered birthdays/update.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 156ms (Views: 138.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/birthdays/update?id%5B%5D=1&dia%5B%5D=22&mes%5B%5D=12&ano%5B%5D=2019&id%5B%5D=2&dia%5B%5D=10&mes%5B%5D=12&ano%5B%5D=2009" for 127.0.0.1 at 2019-02-12 00:20:50 -0200
+Processing by BirthdaysController#update as HTML
+  Parameters: {"id"=>["1", "2"], "dia"=>["22", "10"], "mes"=>["12", "12"], "ano"=>["2019", "2009"]}
+  Rendering birthdays/update.html.erb within layouts/application
+  Rendered birthdays/update.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 108ms (Views: 96.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/birthdays/update?id%5B%5D=1&dia%5B%5D=22&mes%5B%5D=12&ano%5B%5D=2019&id%5B%5D=2&dia%5B%5D=10&mes%5B%5D=12&ano%5B%5D=2009" for 127.0.0.1 at 2019-02-12 00:23:56 -0200
+Processing by BirthdaysController#update as HTML
+  Parameters: {"id"=>["1", "2"], "dia"=>["22", "10"], "mes"=>["12", "12"], "ano"=>["2019", "2009"]}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Symbol into Integer):
+  
+app/controllers/birthdays_controller.rb:8:in `[]'
+app/controllers/birthdays_controller.rb:8:in `block in update'
+app/controllers/birthdays_controller.rb:7:in `update'
+Started GET "/birthdays/update?id%5B%5D=1&dia%5B%5D=22&mes%5B%5D=12&ano%5B%5D=2019&id%5B%5D=2&dia%5B%5D=10&mes%5B%5D=12&ano%5B%5D=2009" for 127.0.0.1 at 2019-02-12 00:24:16 -0200
+  
+SyntaxError (C:/Users/Diego/Documents/cripto_wallet/app/controllers/birthdays_controller.rb:8: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+      puts d[:dia] d[:mes]
+                    ^
+C:/Users/Diego/Documents/cripto_wallet/app/controllers/birthdays_controller.rb:11: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/birthdays_controller.rb:8: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/controllers/birthdays_controller.rb:11: syntax error, unexpected keyword_end, expecting end-of-input
+Started GET "/birthdays/update?id%5B%5D=1&dia%5B%5D=22&mes%5B%5D=12&ano%5B%5D=2019&id%5B%5D=2&dia%5B%5D=10&mes%5B%5D=12&ano%5B%5D=2009" for 127.0.0.1 at 2019-02-12 00:24:28 -0200
+Processing by BirthdaysController#update as HTML
+  Parameters: {"id"=>["1", "2"], "dia"=>["22", "10"], "mes"=>["12", "12"], "ano"=>["2019", "2009"]}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Symbol into Integer):
+  
+app/controllers/birthdays_controller.rb:8:in `[]'
+app/controllers/birthdays_controller.rb:8:in `block in update'
+app/controllers/birthdays_controller.rb:7:in `update'
+Started GET "/birthdays/update?id%5B%5D=1&dia%5B%5D=22&mes%5B%5D=12&ano%5B%5D=2019&id%5B%5D=2&dia%5B%5D=10&mes%5B%5D=12&ano%5B%5D=2009" for 127.0.0.1 at 2019-02-12 00:25:15 -0200
+Processing by BirthdaysController#update as HTML
+  Parameters: {"id"=>["1", "2"], "dia"=>["22", "10"], "mes"=>["12", "12"], "ano"=>["2019", "2009"]}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Symbol into Integer):
+  
+app/controllers/birthdays_controller.rb:8:in `[]'
+app/controllers/birthdays_controller.rb:8:in `block in update'
+app/controllers/birthdays_controller.rb:7:in `update'
+Started GET "/birthdays/update?id%5B%5D=1&dia%5B%5D=22&mes%5B%5D=12&ano%5B%5D=2019&id%5B%5D=2&dia%5B%5D=10&mes%5B%5D=12&ano%5B%5D=2009" for 127.0.0.1 at 2019-02-12 00:25:32 -0200
+Processing by BirthdaysController#update as HTML
+  Parameters: {"id"=>["1", "2"], "dia"=>["22", "10"], "mes"=>["12", "12"], "ano"=>["2019", "2009"]}
+  Rendering birthdays/update.html.erb within layouts/application
+  Rendered birthdays/update.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 100ms (Views: 87.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/birthdays/update?id%5B%5D=1&dia%5B%5D=22&mes%5B%5D=12&ano%5B%5D=2019&id%5B%5D=2&dia%5B%5D=10&mes%5B%5D=12&ano%5B%5D=2009" for 127.0.0.1 at 2019-02-12 00:26:42 -0200
+Processing by BirthdaysController#update as HTML
+  Parameters: {"id"=>["1", "2"], "dia"=>["22", "10"], "mes"=>["12", "12"], "ano"=>["2019", "2009"]}
+  Rendering birthdays/update.html.erb within layouts/application
+  Rendered birthdays/update.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 156ms (Views: 137.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/birthdays/update?id%5B%5D=1&dia%5B%5D=22&mes%5B%5D=12&ano%5B%5D=2019&id%5B%5D=2&dia%5B%5D=10&mes%5B%5D=12&ano%5B%5D=2009" for 127.0.0.1 at 2019-02-12 00:34:18 -0200
+Processing by BirthdaysController#update as HTML
+  Parameters: {"id"=>["1", "2"], "dia"=>["22", "10"], "mes"=>["12", "12"], "ano"=>["2019", "2009"]}
+  Rendering birthdays/update.html.erb within layouts/application
+  Rendered birthdays/update.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 120ms (Views: 106.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/birthdays/index" for 127.0.0.1 at 2019-02-12 00:34:30 -0200
+Processing by BirthdaysController#index as HTML
+  Rendering birthdays/index.html.erb within layouts/application
+  [1m[36mBirthday Load (0.0ms)[0m  [1m[34mSELECT "birthdays".* FROM "birthdays"[0m
+  ↳ app/views/birthdays/index.html.erb:12
+  Rendered birthdays/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 116ms (Views: 102.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/birthdays/index" for 127.0.0.1 at 2019-02-12 00:34:32 -0200
+Processing by BirthdaysController#index as HTML
+  Rendering birthdays/index.html.erb within layouts/application
+  [1m[36mBirthday Load (4.0ms)[0m  [1m[34mSELECT "birthdays".* FROM "birthdays"[0m
+  ↳ app/views/birthdays/index.html.erb:12
+  Rendered birthdays/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 200ms (Views: 170.4ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/birthdays/update?id%5B%5D=1&dia%5B%5D=22&mes%5B%5D=12&ano%5B%5D=2019&id%5B%5D=2&dia%5B%5D=10&mes%5B%5D=12&ano%5B%5D=2009" for 127.0.0.1 at 2019-02-12 00:34:35 -0200
+Processing by BirthdaysController#update as HTML
+  Parameters: {"id"=>["1", "2"], "dia"=>["22", "10"], "mes"=>["12", "12"], "ano"=>["2019", "2009"]}
+  Rendering birthdays/update.html.erb within layouts/application
+  Rendered birthdays/update.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 108ms (Views: 95.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/birthdays/update?id%5B%5D=1&dia%5B%5D=22&mes%5B%5D=12&ano%5B%5D=2019&id%5B%5D=2&dia%5B%5D=10&mes%5B%5D=12&ano%5B%5D=2009" for 127.0.0.1 at 2019-02-12 00:34:53 -0200
+Processing by BirthdaysController#update as HTML
+  Parameters: {"id"=>["1", "2"], "dia"=>["22", "10"], "mes"=>["12", "12"], "ano"=>["2019", "2009"]}
+  Rendering birthdays/update.html.erb within layouts/application
+  Rendered birthdays/update.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 134ms (Views: 122.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/birthdays/update?id%5B%5D=1&dia%5B%5D=22&mes%5B%5D=12&ano%5B%5D=2019&id%5B%5D=2&dia%5B%5D=10&mes%5B%5D=12&ano%5B%5D=2009" for 127.0.0.1 at 2019-02-12 00:35:41 -0200
+Processing by BirthdaysController#update as HTML
+  Parameters: {"id"=>["1", "2"], "dia"=>["22", "10"], "mes"=>["12", "12"], "ano"=>["2019", "2009"]}
+  Rendering birthdays/update.html.erb within layouts/application
+  Rendered birthdays/update.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 108ms (Views: 93.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/birthdays/update?id%5B%5D=1&dia%5B%5D=22&mes%5B%5D=12&ano%5B%5D=2019&id%5B%5D=2&dia%5B%5D=10&mes%5B%5D=12&ano%5B%5D=2009" for 127.0.0.1 at 2019-02-12 00:35:58 -0200
+Processing by BirthdaysController#update as HTML
+  Parameters: {"id"=>["1", "2"], "dia"=>["22", "10"], "mes"=>["12", "12"], "ano"=>["2019", "2009"]}
+  Rendering birthdays/update.html.erb within layouts/application
+  Rendered birthdays/update.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 148ms (Views: 134.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/birthdays/update?id%5B%5D=1&dia%5B%5D=22&mes%5B%5D=12&ano%5B%5D=2019&id%5B%5D=2&dia%5B%5D=10&mes%5B%5D=12&ano%5B%5D=2009" for 127.0.0.1 at 2019-02-12 00:36:16 -0200
+Processing by BirthdaysController#update as HTML
+  Parameters: {"id"=>["1", "2"], "dia"=>["22", "10"], "mes"=>["12", "12"], "ano"=>["2019", "2009"]}
+  Rendering birthdays/update.html.erb within layouts/application
+  Rendered birthdays/update.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 92ms (Views: 81.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/birthdays/update?id%5B%5D=1&dia%5B%5D=22&mes%5B%5D=12&ano%5B%5D=2019&id%5B%5D=2&dia%5B%5D=10&mes%5B%5D=12&ano%5B%5D=2009" for 127.0.0.1 at 2019-02-12 00:37:13 -0200
+Processing by BirthdaysController#update as HTML
+  Parameters: {"id"=>["1", "2"], "dia"=>["22", "10"], "mes"=>["12", "12"], "ano"=>["2019", "2009"]}
+  [1m[36mBirthday Load (0.0ms)[0m  [1m[34mSELECT  "birthdays".* FROM "birthdays" WHERE "birthdays"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/birthdays_controller.rb:6
+  Rendering birthdays/update.html.erb within layouts/application
+  Rendered birthdays/update.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 108ms (Views: 86.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/birthdays/index" for 127.0.0.1 at 2019-02-12 00:39:59 -0200
+Processing by BirthdaysController#index as HTML
+  Rendering birthdays/index.html.erb within layouts/application
+  [1m[36mBirthday Load (0.0ms)[0m  [1m[34mSELECT "birthdays".* FROM "birthdays"[0m
+  ↳ app/views/birthdays/index.html.erb:12
+  Rendered birthdays/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 112ms (Views: 100.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/birthdays/update?id%5B%5D=1&dia%5B%5D=99&mes%5B%5D=12&ano%5B%5D=2019&id%5B%5D=2&dia%5B%5D=10&mes%5B%5D=12&ano%5B%5D=2009" for 127.0.0.1 at 2019-02-12 00:40:04 -0200
+Processing by BirthdaysController#update as HTML
+  Parameters: {"id"=>["1", "2"], "dia"=>["99", "10"], "mes"=>["12", "12"], "ano"=>["2019", "2009"]}
+  [1m[36mBirthday Load (0.0ms)[0m  [1m[34mSELECT  "birthdays".* FROM "birthdays" WHERE "birthdays"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/birthdays_controller.rb:6
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 3, expected 1)):
+  
+app/controllers/birthdays_controller.rb:7:in `update'
+Started GET "/birthdays/index" for 127.0.0.1 at 2019-02-12 00:42:17 -0200
+Processing by BirthdaysController#index as HTML
+  Rendering birthdays/index.html.erb within layouts/application
+  [1m[36mBirthday Load (0.0ms)[0m  [1m[34mSELECT "birthdays".* FROM "birthdays"[0m
+  ↳ app/views/birthdays/index.html.erb:12
+  Rendered birthdays/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 100ms (Views: 89.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/birthdays/update?id%5B%5D=1&dia%5B%5D=22&mes%5B%5D=12&ano%5B%5D=2019&id%5B%5D=2&dia%5B%5D=10&mes%5B%5D=12&ano%5B%5D=2009" for 127.0.0.1 at 2019-02-12 00:42:20 -0200
+Processing by BirthdaysController#update as HTML
+  Parameters: {"id"=>["1", "2"], "dia"=>["22", "10"], "mes"=>["12", "12"], "ano"=>["2019", "2009"]}
+  [1m[36mBirthday Load (0.0ms)[0m  [1m[34mSELECT  "birthdays".* FROM "birthdays" WHERE "birthdays"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/birthdays_controller.rb:6
+  Rendering birthdays/update.html.erb within layouts/application
+  Rendered birthdays/update.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 92ms (Views: 79.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/birthdays/update?id%5B%5D=1&dia%5B%5D=22&mes%5B%5D=12&ano%5B%5D=2019&id%5B%5D=2&dia%5B%5D=10&mes%5B%5D=12&ano%5B%5D=2009" for 127.0.0.1 at 2019-02-12 00:43:08 -0200
+Processing by BirthdaysController#update as HTML
+  Parameters: {"id"=>["1", "2"], "dia"=>["22", "10"], "mes"=>["12", "12"], "ano"=>["2019", "2009"]}
+  [1m[36mBirthday Load (0.0ms)[0m  [1m[34mSELECT  "birthdays".* FROM "birthdays" WHERE "birthdays"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/birthdays_controller.rb:6
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 4, expected 1)):
+  
+app/controllers/birthdays_controller.rb:9:in `update'
+Started GET "/birthdays/update?id%5B%5D=1&dia%5B%5D=22&mes%5B%5D=12&ano%5B%5D=2019&id%5B%5D=2&dia%5B%5D=10&mes%5B%5D=12&ano%5B%5D=2009" for 127.0.0.1 at 2019-02-12 00:46:11 -0200
+Processing by BirthdaysController#update as HTML
+  Parameters: {"id"=>["1", "2"], "dia"=>["22", "10"], "mes"=>["12", "12"], "ano"=>["2019", "2009"]}
+  [1m[36mBirthday Load (4.0ms)[0m  [1m[34mSELECT  "birthdays".* FROM "birthdays" WHERE "birthdays"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/birthdays_controller.rb:6
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 4.0ms)
+
+
+  
+NoMethodError (undefined method `keys' for #<Birthday:0x000000000dbd5ad0>):
+  
+app/controllers/birthdays_controller.rb:8:in `update'
+Started GET "/birthdays/update?id%5B%5D=1&dia%5B%5D=22&mes%5B%5D=12&ano%5B%5D=2019&id%5B%5D=2&dia%5B%5D=10&mes%5B%5D=12&ano%5B%5D=2009" for 127.0.0.1 at 2019-02-12 00:46:45 -0200
+Processing by BirthdaysController#update as HTML
+  Parameters: {"id"=>["1", "2"], "dia"=>["22", "10"], "mes"=>["12", "12"], "ano"=>["2019", "2009"]}
+  [1m[36mBirthday Load (0.0ms)[0m  [1m[34mSELECT  "birthdays".* FROM "birthdays" WHERE "birthdays"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/birthdays_controller.rb:6
+  Rendering birthdays/update.html.erb within layouts/application
+  Rendered birthdays/update.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 108ms (Views: 85.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/birthdays/update?id%5B%5D=1&dia%5B%5D=22&mes%5B%5D=12&ano%5B%5D=2019&id%5B%5D=2&dia%5B%5D=10&mes%5B%5D=12&ano%5B%5D=2009" for 127.0.0.1 at 2019-02-12 00:52:11 -0200
+Processing by BirthdaysController#update as HTML
+  Parameters: {"id"=>["1", "2"], "dia"=>["22", "10"], "mes"=>["12", "12"], "ano"=>["2019", "2009"]}
+  [1m[36mBirthday Load (0.0ms)[0m  [1m[34mSELECT  "birthdays".* FROM "birthdays" WHERE "birthdays"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/birthdays_controller.rb:6
+Completed 400 Bad Request in 11ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: birthday):
+  
+app/controllers/birthdays_controller.rb:15:in `birthday_params'
+app/controllers/birthdays_controller.rb:8:in `update'
+Started GET "/birthdays/update?id%5B%5D=1&dia%5B%5D=22&mes%5B%5D=12&ano%5B%5D=2019&id%5B%5D=2&dia%5B%5D=10&mes%5B%5D=12&ano%5B%5D=2009" for 127.0.0.1 at 2019-02-12 00:52:43 -0200
+Processing by BirthdaysController#update as HTML
+  Parameters: {"id"=>["1", "2"], "dia"=>["22", "10"], "mes"=>["12", "12"], "ano"=>["2019", "2009"]}
+  [1m[36mBirthday Load (0.0ms)[0m  [1m[34mSELECT  "birthdays".* FROM "birthdays" WHERE "birthdays"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/birthdays_controller.rb:6
+Unpermitted parameters: :id, :dia, :mes, :ano
+  Rendering birthdays/update.html.erb within layouts/application
+  Rendered birthdays/update.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 140ms (Views: 110.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/birthdays/update?id%5B%5D=1&dia%5B%5D=22&mes%5B%5D=12&ano%5B%5D=2019&id%5B%5D=2&dia%5B%5D=10&mes%5B%5D=12&ano%5B%5D=2009" for 127.0.0.1 at 2019-02-12 00:54:59 -0200
+Processing by BirthdaysController#update as HTML
+  Parameters: {"id"=>["1", "2"], "dia"=>["22", "10"], "mes"=>["12", "12"], "ano"=>["2019", "2009"]}
+  [1m[36mBirthday Load (0.0ms)[0m  [1m[34mSELECT  "birthdays".* FROM "birthdays" WHERE "birthdays"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/birthdays_controller.rb:6
+Unpermitted parameters: :id, :dia, :mes, :ano
+  Rendering birthdays/update.html.erb within layouts/application
+  Rendered birthdays/update.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 116ms (Views: 90.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/birthdays/update?id%5B%5D=1&dia%5B%5D=22&mes%5B%5D=12&ano%5B%5D=2019&id%5B%5D=2&dia%5B%5D=10&mes%5B%5D=12&ano%5B%5D=2009" for 127.0.0.1 at 2019-02-12 00:56:44 -0200
+Processing by BirthdaysController#update as HTML
+  Parameters: {"id"=>["1", "2"], "dia"=>["22", "10"], "mes"=>["12", "12"], "ano"=>["2019", "2009"]}
+  [1m[36mBirthday Load (0.0ms)[0m  [1m[34mSELECT  "birthdays".* FROM "birthdays" WHERE "birthdays"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/birthdays_controller.rb:6
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 4, expected 1)):
+  
+app/controllers/birthdays_controller.rb:17:in `birthday_params'
+app/controllers/birthdays_controller.rb:9:in `update'
+Started GET "/birthdays/index" for 127.0.0.1 at 2019-02-12 01:06:57 -0200
+Processing by BirthdaysController#index as HTML
+  Rendering birthdays/index.html.erb within layouts/application
+  [1m[36mBirthday Load (0.0ms)[0m  [1m[34mSELECT "birthdays".* FROM "birthdays"[0m
+  ↳ app/views/birthdays/index.html.erb:12
+  Rendered birthdays/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 116ms (Views: 104.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/birthdays/update?id%5B%5D=1&dia%5B%5D=22&mes%5B%5D=12&ano%5B%5D=2019&id%5B%5D=2&dia%5B%5D=10&mes%5B%5D=12&ano%5B%5D=2009" for 127.0.0.1 at 2019-02-12 01:06:59 -0200
+Processing by BirthdaysController#update as HTML
+  Parameters: {"id"=>["1", "2"], "dia"=>["22", "10"], "mes"=>["12", "12"], "ano"=>["2019", "2009"]}
+  [1m[36mBirthday Load (0.0ms)[0m  [1m[34mSELECT  "birthdays".* FROM "birthdays" WHERE "birthdays"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/birthdays_controller.rb:10
+Completed 404 Not Found in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Birthday with 'id'=id):
+  
+app/controllers/birthdays_controller.rb:10:in `update'
+Started GET "/birthdays/index" for 127.0.0.1 at 2019-02-12 01:11:16 -0200
+Processing by BirthdaysController#index as HTML
+  Rendering birthdays/index.html.erb within layouts/application
+  [1m[36mBirthday Load (0.0ms)[0m  [1m[34mSELECT "birthdays".* FROM "birthdays"[0m
+  ↳ app/views/birthdays/index.html.erb:12
+  Rendered birthdays/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 100ms (Views: 84.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/birthdays/update?id%5B%5D=1&dia%5B%5D=22&mes%5B%5D=12&ano%5B%5D=2019&id%5B%5D=2&dia%5B%5D=10&mes%5B%5D=12&ano%5B%5D=2009" for 127.0.0.1 at 2019-02-12 01:11:17 -0200
+Processing by BirthdaysController#update as HTML
+  Parameters: {"id"=>["1", "2"], "dia"=>["22", "10"], "mes"=>["12", "12"], "ano"=>["2019", "2009"]}
+  [1m[36mBirthday Load (0.0ms)[0m  [1m[34mSELECT  "birthdays".* FROM "birthdays" WHERE "birthdays"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/birthdays_controller.rb:6
+  [1m[36mCACHE Birthday Load (0.0ms)[0m  [1m[34mSELECT  "birthdays".* FROM "birthdays" WHERE "birthdays"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/birthdays_controller.rb:10
+  [1m[36mBirthday Load (0.0ms)[0m  [1m[34mSELECT  "birthdays".* FROM "birthdays" WHERE "birthdays"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/birthdays_controller.rb:10
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/birthdays_controller.rb:10
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/birthdays_controller.rb:10
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (When assigning attributes, you must pass a hash as an argument.):
+  
+app/controllers/birthdays_controller.rb:10:in `update'
+Started GET "/birthdays/update?id%5B%5D=1&dia%5B%5D=22&mes%5B%5D=12&ano%5B%5D=2019&id%5B%5D=2&dia%5B%5D=10&mes%5B%5D=12&ano%5B%5D=2009" for 127.0.0.1 at 2019-02-12 01:13:25 -0200
+Processing by BirthdaysController#update as HTML
+  Parameters: {"id"=>["1", "2"], "dia"=>["22", "10"], "mes"=>["12", "12"], "ano"=>["2019", "2009"]}
+  [1m[36mBirthday Load (0.0ms)[0m  [1m[34mSELECT  "birthdays".* FROM "birthdays" WHERE "birthdays"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/birthdays_controller.rb:6
+  [1m[36mCACHE Birthday Load (0.0ms)[0m  [1m[34mSELECT  "birthdays".* FROM "birthdays" WHERE "birthdays"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/birthdays_controller.rb:10
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/birthdays_controller.rb:10
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/birthdays_controller.rb:10
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (When assigning attributes, you must pass a hash as an argument.):
+  
+app/controllers/birthdays_controller.rb:10:in `update'
+Started GET "/birthdays/update?id%5B%5D=1&dia%5B%5D=22&mes%5B%5D=12&ano%5B%5D=2019&id%5B%5D=2&dia%5B%5D=10&mes%5B%5D=12&ano%5B%5D=2009" for 127.0.0.1 at 2019-02-12 01:14:35 -0200
+Processing by BirthdaysController#update as HTML
+  Parameters: {"id"=>["1", "2"], "dia"=>["22", "10"], "mes"=>["12", "12"], "ano"=>["2019", "2009"]}
+  [1m[36mBirthday Load (0.0ms)[0m  [1m[34mSELECT  "birthdays".* FROM "birthdays" WHERE "birthdays"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/birthdays_controller.rb:6
+  [1m[36mBirthday Load (0.0ms)[0m  [1m[34mSELECT "birthdays".* FROM "birthdays"[0m
+  ↳ app/controllers/birthdays_controller.rb:10
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/birthdays_controller.rb:10
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/birthdays_controller.rb:10
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+
+  
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  
+app/controllers/birthdays_controller.rb:10:in `update'
