@@ -3,12 +3,12 @@ class BirthdaysController < ApplicationController
     @birthdays = Birthday.all
   end
   def update
-    @birthday = Birthday.find(params[:id][0])
-    puts '============================'
-    # params.delete()
-    puts params.keys
-    Birthday.update(params)
-      
+    x =  params[:id].size - 1
+
+    for i in 0..x
+      x = Birthday.where("id = #{params[:id][i]} and dia = #{params[:dia][i]}")
+      x.update_all("mes = #{params[:mes][i]} and ano = #{params[:ano][i]}")
+    end     
   end
 
   private
