@@ -14,5 +14,6 @@ class BirthdaysController < ApplicationController
   private
   def birthday_params
     params.require(:birthday).permit(:id, :dia, :mes, :ano)
+    
   end
 end
